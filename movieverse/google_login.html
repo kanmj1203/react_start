@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="904380552535-q2bm8ehhkbk7bnnqjmfedujkg31o5q3k.apps.googleusercontent.com">
+    <title>구글로그인</title>
+    <link rel="stylesheet" href="google_login.css">
+</head>
+
+<body>
+    <h2 class="alert alert-success">구글로그인</h2>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+    <div class="data">
+        <p>Name</p>
+        <p id="name"></p>
+        <p>Image</p>
+        <img id="image" class="rounded-circle" width="100" height="100" />
+        <p>Email</p>
+        <p id="email"></p>
+        <button type="button" class="btn btn-danger" onclick="signOut();">Sign Out</button>
+    </div>
+
+    <script src="google_login.js" async defer></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <script scope="https://www.googleapis.com/auth/userinfo.email"
+            src = "https://www.googleapis.com/auth/userinfo.profile"></script>
+</body>
+
+</html>

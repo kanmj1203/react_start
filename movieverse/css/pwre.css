@@ -1,0 +1,83 @@
+
+.now_pw{
+position: relative;
+width: 150px;
+height: 30px;
+left: 78px;
+top: 97px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #030303;
+margin-bottom:10px;
+}
+.pw_box{
+position: relative;
+width: 384px;
+height: 36px;
+left: 204px;
+    top: 52px;
+padding-left:10px;
+background: #FFFFFF;
+border: 1px solid #707070;
+border-radius: 10px;
+}
+.pw_boxs{
+position: relative;
+width: 384px;
+height: 36px;
+left: 204px;
+    top: 52px;
+padding-left:10px;
+background: #FFFFFF;
+border: 1px solid #707070;
+border-radius: 10px;
+}
+.infores{
+	display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 11px 3px 10px;
+gap: 10px;
+
+width: auto;
+height: 30px;
+color:white;
+border:none;
+background: #3482EA;
+border-radius: 5px;
+    margin-left: 260px;
+    margin-top: 100px;
+	float:left;
+}
+h1{
+	position: absolute;
+
+height: 40px;
+left: 24px;
+top: 290px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-size: 28px;
+line-height: 41px;
+display: flex;
+align-items: center;
+
+color: #030303;
+
+}
+.line{
+position: absolute;
+width: 894px;
+height: 0.1px;
+left: 24px;
+top: 320px;
+
+}
